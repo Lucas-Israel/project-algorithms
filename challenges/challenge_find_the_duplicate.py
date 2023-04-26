@@ -25,18 +25,19 @@ def duplicate_check(new_list):
 
 
 def find_duplicate(nums):
-    try:
-        len_check(nums)
-        number_in_list_check(nums)
-        highest_number = max(nums)
-        new_list = counting_sort_list(highest_number)
+    # try:
+    #     len_check(nums)
+    #     number_in_list_check(nums)
+    #     highest_number = max(nums)
+    #     new_list = counting_sort_list(highest_number)
 
-        for number in nums:
-            new_list[number] += 1
+    #     for number in nums:
+    #         new_list[number] += 1
 
-        duplicate_check(new_list)
+    #     duplicate_check(new_list)
 
-    except CustomError:
-        return False
+    # except CustomError:
+    #     return False
 
-    return new_list.index(max(new_list))
+    # return new_list.index(max(new_list))
+    raise NotImplementedError
