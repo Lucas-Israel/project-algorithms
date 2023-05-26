@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-# :open_book: Objetivo do projeto <nome do projeto>
+# :open_book: Objetivo do projeto algorithms
 
 <details>
   <summary>:speech_balloon: Objetivos</summary>
